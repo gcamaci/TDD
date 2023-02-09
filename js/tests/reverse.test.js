@@ -1,6 +1,6 @@
-import { reverseString } from "../reverseStr";
+import { reverseString } from "../code/reverseStr";
 
 test('empty string', () => {
-    expect(reverseString('')).toStrictEqual('')
+    expect(reverseString('Hello')).toStrictEqual('olleH')
 });
 

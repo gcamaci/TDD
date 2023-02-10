@@ -8,3 +8,4 @@ test('Calculator', () => {
     expect(calc.divide(12,4)).toBe(3);
     expect(calc.multiply(4,3)).toBe(12);
 });
+
